@@ -1,5 +1,7 @@
 package org.example;
 
+import org.example.problem14.Solution;
+
 /**
  * Hello world!
  *
@@ -8,6 +10,8 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        org.example.problem14.Solution solution = new Solution();
+        solution.longestCommonPrefix(new String[]{"ab","a"});
+
     }
 }
